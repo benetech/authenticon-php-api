@@ -1,0 +1,39 @@
+{
+
+"3icons-memory" : {
+	"name" : "3 icons (memory)",
+	"description" : "Makes a three-icon code and keeps it in store for 24 hours, after which sequences may be reused. Has an absolute capacity of c. 175k different fingerprints per 24 hours.",
+	"parts" : 3,
+	"type" : "image",
+	"url" : "encoders/3icons/3icons.php"
+},
+"3words-memory" : {
+        "name" : "3 words (memory)",
+        "description" : "Makes a three-word code keeps it in store for 24 hours, after which sequences may be reused. Has an absolute capacity of c. 175k different fingerprints per 24 hours.",
+        "parts" : 3,
+        "type" : "text",
+        "url" : "encoders/3icons/3icons.php?textOnly=true"
+},
+"10icons" : {
+	"name" : "10 icons",
+        "description" : "Makes 10 icons from each four digits of the fingerprint.",
+        "parts" : 10,
+        "type" : "image",
+        "url" : "encoders/icon-map/icon-map.php?group=4"
+},
+"14icons" : {
+        "name" : "14 icons",
+        "description" : "Makes 14 icons from each three digits of the fingerprint.",
+        "parts" : 14,
+        "type" : "image",
+        "url" : "encoders/icon-map/icon-map.php?group=3"
+},
+"liang" : {
+	"name" : "Liang hierarchy",
+	"description" : "Makes three progressively longer sequences to be checked so that faiures are spotted sooner.",
+	"parts" : 3,
+	"type" : "text",
+	"url" : "encoders/liang"
+}
+
+}
